@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Schedule</string>
+    <string name="login_page">Login Page</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="enter_user_name">Enter user name</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+    <string name="number_of_attempts">Number of Attempts Remaining:</string>
+    <string name="welcome_to_user_page">Welcome to User Page</string>
+    <string name="go_back_to_login_page">Go Back To Login Page</string>
+    <string name="textview">TextView</string>
+</resources>
