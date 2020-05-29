@@ -40,21 +40,6 @@ public class CalendarForm extends AppCompatActivity {
 
     }
 
-    public void showPopUp(View view){
-        TextView textclose;
-        mDialog.setContentView(R.layout.pop_up);
-        textclose = (TextView)mDialog.findViewById(R.id.close);
-        textclose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mDialog.dismiss();
-            }
-        });
-        mDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        mDialog.show();
-
-    }
-
     //get array from Sharedpreference onresume
     @Override
     protected void onResume(){
@@ -89,14 +74,10 @@ public class CalendarForm extends AppCompatActivity {
             //convert string YMD to proper time format
             Date input = new GregorianCalendar(Integer.valueOf(year),Integer.valueOf(month)-1,Integer.valueOf(date)).getTime();
             //add to date array
-            //final List<Date> dates = new ArrayList<Date>();
             dates.add(input);
             Log.i("tag","item: "+itemReceived+" date: "+String.valueOf(input));
             item.add(itemReceived);
         }
-
-
-        //Log.i("tag",String.valueOf(array));
 
         datePicker.highlightDates(dates);
         datePicker.setOnDateSelectedListener(new CalendarPickerView.OnDateSelectedListener() {
@@ -106,15 +87,17 @@ public class CalendarForm extends AppCompatActivity {
                 //String inputDate = DateFormat.getDateInstance(DateFormat.SHORT).format(input);
                 if(dates.indexOf(date)!= -1){
                     int index = dates.indexOf(date);
-                    //showPopUp(datePicker);
-                    // Toast.makeText(getApplicationContext(),"Item: "+itemReceived,Toast.LENGTH_LONG).show();
-                    Toast.makeText(getApplicationContext(),"Item: "+ item.get(index),Toast.LENGTH_SHORT).show();
+                    //Show Pop-up Window
+                    Intent toPopUpActivity = new Intent(CalendarForm.this,PopUp.class);
+                    toPopUpActivity.putExtra("item",item.get(index));
+                    startActivity(toPopUpActivity);
+                    //Toast.makeText(getApplicationContext(),"Item: "+ item.get(index),Toast.LENGTH_SHORT).show();
 
                 }
                 else{
-                    Toast.makeText(getApplicationContext(),selectedDate,Toast.LENGTH_SHORT).show();
+                    //Toast.makeText(getApplicationContext(),selectedDate,Toast.LENGTH_SHORT).show();
                 }
-                //Calendar sel = Calendar.getInstance();
+
 
             }
 
@@ -130,7 +113,6 @@ public class CalendarForm extends AppCompatActivity {
             public void onClick(View v) {
                 Intent toInputActivity = new Intent(getApplicationContext(),InputActivity.class);
                 toInputActivity.putStringArrayListExtra("dataArray",dataArray);
-
                 startActivity(toInputActivity);
             }
         });

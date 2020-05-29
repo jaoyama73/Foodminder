@@ -9,14 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.foodminderschedule.InputActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+        <!--Activity for inputting item and its expiration date to Calendar-->
+        <activity
+            android:name="com.example.foodminderschedule.InputActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.foodminderschedule.CalendarForm">
+
+        <!--Activity for Calendar-->
+        <activity
+            android:name="com.example.foodminderschedule.CalendarForm">
+
+        </activity>
+
+        <!--Activity for Pop-up window after a date is clicked-->
+        <activity
+            android:name=".PopUp"
+            android:theme="@style/AppTheme.PopUpTheme">
 
         </activity>
     </application>

@@ -11,7 +11,7 @@
 9-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:5:5-22:19
+11-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:5:5-37:19
 12        android:allowBackup="true"
 12-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:6:9-35
 13        android:debuggable="true"
@@ -26,37 +26,50 @@
 18        android:testOnly="true"
 19        android:theme="@style/AppTheme" >
 19-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.foodminderschedule.InputActivity" >
-20-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:9-18:20
-20-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:19-78
-21            <intent-filter>
-21-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:14:17-69
-22-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:16:17-77
-24-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27        <activity android:name="com.example.foodminderschedule.CalendarForm" >
-27-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:9-21:20
-27-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:19-77
+20
+21        <!-- Activity for inputting item and its expiration date to Calendar -->
+22        <activity android:name="com.example.foodminderschedule.InputActivity" >
+22-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:14:9-23:20
+22-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:15:13-72
+23            <intent-filter>
+23-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:16:13-22:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:17:17-18:65
+24-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:18:21-62
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:20:17-21:71
+26-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:21:21-68
+27            </intent-filter>
 28        </activity>
 29
-30        <meta-data
-30-->[com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:23:9-25:38
-31            android:name="android.support.VERSION"
-31-->[com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:24:13-51
-32            android:value="26.1.0" />
-32-->[com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:25:13-35
-33        <meta-data
-33-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d3db470788f7138b14904d505022a2c8/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
-34            android:name="android.arch.lifecycle.VERSION"
-34-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d3db470788f7138b14904d505022a2c8/runtime-1.0.0/AndroidManifest.xml:26:13-58
-35            android:value="27.0.0-SNAPSHOT" />
-35-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d3db470788f7138b14904d505022a2c8/runtime-1.0.0/AndroidManifest.xml:27:13-44
-36    </application>
-37
-38</manifest>
+30        <!-- Activity for Calendar -->
+31        <activity android:name="com.example.foodminderschedule.CalendarForm" >
+31-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:26:9-29:20
+31-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:27:13-71
+32        </activity>
+33
+34        <!-- Activity for Pop-up window after a date is clicked -->
+35        <activity
+35-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:32:9-36:20
+36            android:name="com.example.foodminderschedule.PopUp"
+36-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:33:13-34
+37            android:theme="@style/AppTheme.PopUpTheme" >
+37-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:34:13-55
+38        </activity>
+39
+40        <meta-data
+40-->[com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:23:9-25:38
+41            android:name="android.support.VERSION"
+41-->[com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:24:13-51
+42            android:value="26.1.0" />
+42-->[com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:25:13-35
+43        <meta-data
+43-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d3db470788f7138b14904d505022a2c8/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+44            android:name="android.arch.lifecycle.VERSION"
+44-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d3db470788f7138b14904d505022a2c8/runtime-1.0.0/AndroidManifest.xml:26:13-58
+45            android:value="27.0.0-SNAPSHOT" />
+45-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d3db470788f7138b14904d505022a2c8/runtime-1.0.0/AndroidManifest.xml:27:13-44
+46    </application>
+47
+48</manifest>

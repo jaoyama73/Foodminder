@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
