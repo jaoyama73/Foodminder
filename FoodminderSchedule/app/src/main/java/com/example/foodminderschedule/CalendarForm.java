@@ -28,23 +28,20 @@ import java.util.List;
 public class CalendarForm extends AppCompatActivity {
     private static ArrayList<String> dataArray = new ArrayList<>();
     private static ArrayList<Date> dates = new ArrayList<>();
-    private static ArrayList<String> item = new ArrayList<>();
-
-    //ArrayList<Pair<String,Date>> array = new ArrayList<>();
-    Dialog mDialog;
+    private static ArrayList<ArrayList<String>> item = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.calendar_form);
-
     }
 
-    //get array from Sharedpreference onresume
+    // Get array from SharedPreference during onResume
     @Override
     protected void onResume(){
         super.onResume();
-        //Modify the data in dataArray accordingly
+
+        // Clear and then Modify the element [item,date] in dataArray accordingly
         dataArray.clear();
         SharedPreferences info = getSharedPreferences("dataInfo", Context.MODE_PRIVATE);
         int index = info.getInt("dataSize",0);
@@ -53,60 +50,76 @@ public class CalendarForm extends AppCompatActivity {
             dataArray.add(eachData);
         }
 
-
-        //Set today and set the range for 1 year in future
+        //Set today and set the available selection range for 1 year in future
         Date today = new Date();
         Calendar nextYear = Calendar.getInstance();
         nextYear.add(Calendar.YEAR,1);
-
-
         final CalendarPickerView datePicker = findViewById((R.id.calendar));
         datePicker.init(today,nextYear.getTime())
                 .withSelectedDate(today);
 
+        // Process the dataArray received from SHaredPreference
         for (String i:dataArray) {
+            // Split data element into item and date
             String itemReceived = i.split("~")[0];
             String dateReceived = i.split("~")[1];
+
+            // Split date information into Year, Month, Date
             String[] YMD = dateReceived.split("/");
             String year = YMD[0];
             String month = YMD[1];
             String date = YMD[2];
-            //convert string YMD to proper time format
+
+            // Convert Year, Month, Date from String to Date format  (will be used for later comparison)
             Date input = new GregorianCalendar(Integer.valueOf(year),Integer.valueOf(month)-1,Integer.valueOf(date)).getTime();
-            //add to date array
-            dates.add(input);
-            Log.i("tag","item: "+itemReceived+" date: "+String.valueOf(input));
-            item.add(itemReceived);
+
+            // Add information to dateArray and itemArray
+            // If a date doesn't have any expiring food yet -> add date to dateArray, add item to newly added corresponding date
+            if(!dates.contains(input)){
+                dates.add(input);
+                ArrayList<String> addNew = new ArrayList<>();
+                addNew.add(itemReceived);
+                item.add(addNew);
+            }
+            // If a date already has expiring food -> add item to existing corresponding date
+            else{
+                int existedDateIndex = dates.indexOf(input);
+                // Can only add the same item once to each date
+                if(!item.get(existedDateIndex).contains(itemReceived))
+                    item.get(existedDateIndex).add(itemReceived);
+            }
         }
 
+        // The dates with expiring food are highlighted
         datePicker.highlightDates(dates);
+
+        // If a particular date is clicked
         datePicker.setOnDateSelectedListener(new CalendarPickerView.OnDateSelectedListener() {
             @Override
             public void onDateSelected(Date date) {
-                String selectedDate = DateFormat.getDateInstance(DateFormat.SHORT).format(date);
-                //String inputDate = DateFormat.getDateInstance(DateFormat.SHORT).format(input);
+                // If selected date has expiring food or highlighted/in date Array
                 if(dates.indexOf(date)!= -1){
                     int index = dates.indexOf(date);
-                    //Show Pop-up Window
+                    // Pass the item information and show Pop-Up window
+                    // Directing to PopUp.java ...
                     Intent toPopUpActivity = new Intent(CalendarForm.this,PopUp.class);
-                    toPopUpActivity.putExtra("item",item.get(index));
+                    toPopUpActivity.putStringArrayListExtra("item",item.get(index));
                     startActivity(toPopUpActivity);
-                    //Toast.makeText(getApplicationContext(),"Item: "+ item.get(index),Toast.LENGTH_SHORT).show();
-
                 }
+                // Otherwise, show nothing ... or Maybe a Toast
                 else{
                     //Toast.makeText(getApplicationContext(),selectedDate,Toast.LENGTH_SHORT).show();
                 }
-
-
             }
 
+            // TBD
             @Override
             public void onDateUnselected(Date date) {
-
             }
         });
 
+        // If 'Return' button is pressed
+        // Returning back to input page while passing the current info
         Button re = findViewById(R.id.revert);
         re.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,8 +129,5 @@ public class CalendarForm extends AppCompatActivity {
                 startActivity(toInputActivity);
             }
         });
-
     }
-
-
 }

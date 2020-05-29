@@ -27,32 +27,38 @@ public class InputActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.input_activity);
-        //saved= (ArrayList<Pair<String, Date>>) getIntent().getSerializableExtra("savedDate");
-        int x = getIntent().getIntExtra("testNum", 0);
-        //Log.i("tag",String.valueOf(saved)+String.valueOf(x));
 
+        // Initialize dataArray or receive dataArray from previous activity
         Intent intent = getIntent();
-
+        dataArray.clear();
         dataArray = intent.getStringArrayListExtra("dataArray");
+        // If received previous data -> get the number of data/items
         if (dataArray != null) {
             dataSize = dataArray.size();
-        } else {
+        }
+        // If no previous data  (opening this app for the first time) -> initialize the dataArray
+        else {
             dataArray = new ArrayList<>();
             dataSize = 0;
         }
+
 
         Button add = findViewById(R.id.button_add);
         item = (EditText)findViewById(R.id.editText_item);
         date = (EditText)findViewById(R.id.editText_date);
 
+        // If 'Add' button is clicked
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Pass data as String array to Calendar
+                // Format: item '~' date
                 Intent toCalendarActivity = new Intent(getApplicationContext(),CalendarForm.class);
                 toCalendarActivity.putStringArrayListExtra("dataArray",dataArray);
                 dataArray.add(String.valueOf(item.getText())+"~"+String.valueOf(date.getText()));
                 dataSize++;
 
+                // Store in SharedPreference
                 SharedPreferences dataInfo = getSharedPreferences("dataInfo", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = dataInfo.edit();
                 editor.putInt("dataSize",dataSize);
@@ -67,23 +73,4 @@ public class InputActivity extends AppCompatActivity {
 
 
     }
-    /*
-
-    //The following method will run when 'Login' button is pressed
-    public void onClick(View view) {
-        item = (EditText)findViewById(R.id.editText_item);
-        date = (EditText)findViewById(R.id.editText_date);
-
-        //Pair<String,String> input= new Pair<String,String>(String.valueOf(item.getText()),String.valueOf(date.getText()));
-        Intent intent = new Intent(this, CalendarForm.class);
-        intent.putExtra("item",String.valueOf(item.getText()));
-        intent.putExtra("date",String.valueOf(date.getText()));
-        intent.putExtra("saved",saved);
-        startActivity(intent);
-
-
-    }
-
-
-*/
 }
