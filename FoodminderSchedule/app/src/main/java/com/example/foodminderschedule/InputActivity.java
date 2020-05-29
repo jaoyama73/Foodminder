@@ -62,7 +62,7 @@ public class InputActivity extends AppCompatActivity {
                 SharedPreferences dataInfo = getSharedPreferences("dataInfo", Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = dataInfo.edit();
                 editor.putInt("dataSize",dataSize);
-                for(int i = 1;i<=dataSize;i++){
+                for(int i = 1;i<=dataSize;i++){ 
                     editor.putString("data_"+Integer.toString(i),dataArray.get(i-1));
                 }
                 editor.apply();
