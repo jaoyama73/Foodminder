@@ -5,11 +5,14 @@ INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidMa
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-24:12
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e45e486d2efc791924965d608e1f3e35/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.squareup:android-times-square:1.6.5] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/a0570346b5359515502187244d60631a/android-times-square-1.6.5/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c3684741d10b1bc298a4dc29c209f65a/animated-vector-drawable-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/1df3ea919a273d7bdc26de0fb37828c1/support-vector-drawable-26.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0c56505611007af95cf12771e34fa4e8/recyclerview-v7-26.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dea1193b635281bdba8e59eb4af72b26/transition-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dd2e38ff4199f996f314d393616bb964/support-v4-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:palette-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d4abe13de173c2e12af94ce40750dba1/palette-v7-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e9fa69fd0e93d7392a0c7d12aa456c89/support-media-compat-26.1.0/AndroidManifest.xml:17:1-31:12
@@ -22,7 +25,7 @@ INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidMa
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-24:12
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:3:5-54
+		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -39,6 +42,8 @@ application
 ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e45e486d2efc791924965d608e1f3e35/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
@@ -47,6 +52,10 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c3684741d10b1bc298a4dc29c209f65a/animated-vector-drawable-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/1df3ea919a273d7bdc26de0fb37828c1/support-vector-drawable-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/1df3ea919a273d7bdc26de0fb37828c1/support-vector-drawable-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0c56505611007af95cf12771e34fa4e8/recyclerview-v7-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0c56505611007af95cf12771e34fa4e8/recyclerview-v7-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dea1193b635281bdba8e59eb4af72b26/transition-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dea1193b635281bdba8e59eb4af72b26/transition-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dd2e38ff4199f996f314d393616bb964/support-v4-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dd2e38ff4199f996f314d393616bb964/support-v4-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:palette-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d4abe13de173c2e12af94ce40750dba1/palette-v7-26.1.0/AndroidManifest.xml:22:5-26:19
@@ -75,10 +84,10 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/
 		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.example.foodminderschedule.LoginPage
+activity#com.example.foodminderschedule.InputActivity
 ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:19-74
+		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:19-78
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
@@ -89,16 +98,18 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:16:27-74
-activity#com.example.foodminderschedule.UserPage
+activity#com.example.foodminderschedule.CalendarForm
 ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:9-21:20
 	android:name
-		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:19-73
+		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:19-77
 uses-sdk
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e45e486d2efc791924965d608e1f3e35/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
@@ -109,6 +120,10 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c3684741d10b1bc298a4dc29c209f65a/animated-vector-drawable-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/1df3ea919a273d7bdc26de0fb37828c1/support-vector-drawable-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/1df3ea919a273d7bdc26de0fb37828c1/support-vector-drawable-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0c56505611007af95cf12771e34fa4e8/recyclerview-v7-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0c56505611007af95cf12771e34fa4e8/recyclerview-v7-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dea1193b635281bdba8e59eb4af72b26/transition-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dea1193b635281bdba8e59eb4af72b26/transition-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dd2e38ff4199f996f314d393616bb964/support-v4-26.1.0/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dd2e38ff4199f996f314d393616bb964/support-v4-26.1.0/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:palette-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d4abe13de173c2e12af94ce40750dba1/palette-v7-26.1.0/AndroidManifest.xml:20:5-44
@@ -128,7 +143,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 		ADDED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
@@ -139,12 +154,18 @@ INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidMa
 		INJECTED from /Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2104fcc2fda76eed27619f76cae30ade/appcompat-v7-26.1.0/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c3684741d10b1bc298a4dc29c209f65a/animated-vector-drawable-26.1.0/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c3684741d10b1bc298a4dc29c209f65a/animated-vector-drawable-26.1.0/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/1df3ea919a273d7bdc26de0fb37828c1/support-vector-drawable-26.1.0/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/1df3ea919a273d7bdc26de0fb37828c1/support-vector-drawable-26.1.0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0c56505611007af95cf12771e34fa4e8/recyclerview-v7-26.1.0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0c56505611007af95cf12771e34fa4e8/recyclerview-v7-26.1.0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dea1193b635281bdba8e59eb4af72b26/transition-26.1.0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dea1193b635281bdba8e59eb4af72b26/transition-26.1.0/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dd2e38ff4199f996f314d393616bb964/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dd2e38ff4199f996f314d393616bb964/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:palette-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/d4abe13de173c2e12af94ce40750dba1/palette-v7-26.1.0/AndroidManifest.xml:23:9-25:38

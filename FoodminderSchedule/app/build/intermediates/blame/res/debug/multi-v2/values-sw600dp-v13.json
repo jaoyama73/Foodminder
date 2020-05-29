@@ -4,6 +4,25 @@
             "outputFile": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
+                    "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/5b44fb940b822d16235c98e3ad1ffbb9/design-26.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,1308,1371",
+                        "endLines": "10,11,12,13,14,15,16,17,20,24",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,1366,1548"
+                    }
+                },
+                {
                     "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/fbb143d2bc3219e7901ac18225dbe74d/mediarouter-v7-26.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
@@ -13,11 +32,11 @@
                         "endOffsets": "119,188"
                     },
                     "to": {
-                        "startLines": "10,11",
+                        "startLines": "18,19",
                         "startColumns": "4,4",
-                        "startOffsets": "611,680",
+                        "startOffsets": "1170,1239",
                         "endColumns": "68,68",
-                        "endOffsets": "675,744"
+                        "endOffsets": "1234,1303"
                     }
                 },
                 {

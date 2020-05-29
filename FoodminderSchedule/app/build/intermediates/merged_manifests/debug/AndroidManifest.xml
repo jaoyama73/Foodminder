@@ -17,14 +17,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.foodminderschedule.LoginPage" >
+        <activity android:name="com.example.foodminderschedule.InputActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.foodminderschedule.UserPage" >
+        <activity android:name="com.example.foodminderschedule.CalendarForm" >
         </activity>
 
         <meta-data

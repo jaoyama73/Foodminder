@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
-    },
-    {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -32,20 +32,12 @@
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/layout_activity_user_page.xml.flat",
-        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/layout/activity_user_page.xml"
-    },
-    {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/layout_activity_login_page.xml.flat",
-        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/layout/activity_login_page.xml"
     },
     {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -60,6 +52,10 @@
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/layout_calendar_form.xml.flat",
+        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/layout/calendar_form.xml"
+    },
+    {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -72,8 +68,16 @@
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/layout_input_activity.xml.flat",
+        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/layout/input_activity.xml"
+    },
+    {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/layout_pop_up.xml.flat",
+        "source": "/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/res/layout/pop_up.xml"
     },
     {
         "merged": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_background.png.flat",

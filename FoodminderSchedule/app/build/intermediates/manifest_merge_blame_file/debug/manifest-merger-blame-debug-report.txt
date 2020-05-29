@@ -26,9 +26,9 @@
 18        android:testOnly="true"
 19        android:theme="@style/AppTheme" >
 19-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.foodminderschedule.LoginPage" >
+20        <activity android:name="com.example.foodminderschedule.InputActivity" >
 20-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:9-18:20
-20-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:19-74
+20-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:19-78
 21            <intent-filter>
 21-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:13:13-17:29
 22                <action android:name="android.intent.action.MAIN" />
@@ -40,9 +40,9 @@
 24-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:16:27-74
 25            </intent-filter>
 26        </activity>
-27        <activity android:name="com.example.foodminderschedule.UserPage" >
+27        <activity android:name="com.example.foodminderschedule.CalendarForm" >
 27-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:9-21:20
-27-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:19-73
+27-->/Users/aoyama/Foodminder/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:19-77
 28        </activity>
 29
 30        <meta-data
