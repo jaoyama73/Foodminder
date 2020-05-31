@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "6,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "328,403,481",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "398,476,551"
+                    }
+                },
+                {
+                    "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "556",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "733"
+                    }
+                }
+            ]
+        }
+    ]
+}
