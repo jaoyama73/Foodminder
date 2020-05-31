@@ -843,8 +843,10 @@ drawable ic_group_expand_12
 drawable ic_group_expand_13
 drawable ic_group_expand_14
 drawable ic_group_expand_15
+drawable ic_home_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_list_black_24dp
 drawable ic_media_pause_dark
 drawable ic_media_pause_light
 drawable ic_media_play_dark
@@ -980,6 +982,7 @@ drawable ic_mr_button_disabled_light
 drawable ic_mr_button_disconnected_dark
 drawable ic_mr_button_disconnected_light
 drawable ic_mr_button_grey
+drawable ic_today_black_24dp
 drawable ic_vol_type_speaker_dark
 drawable ic_vol_type_speaker_group_dark
 drawable ic_vol_type_speaker_group_light
@@ -1057,6 +1060,7 @@ id basic
 id beginning
 id blocking
 id bottom
+id bottom_navigation
 id buttonPanel
 id button_add
 id calendar
@@ -1100,6 +1104,8 @@ id fill_horizontal
 id fill_vertical
 id fixed
 id forever
+id fragment_container
+id fragment_home
 id ghost_view
 id home
 id homeAsUp
@@ -1148,6 +1154,9 @@ id mr_volume_group_list
 id mr_volume_item_icon
 id mr_volume_slider
 id multiply
+id nav_calendar
+id nav_home
+id nav_list
 id navigation_header_container
 id never
 id none
@@ -1278,6 +1287,7 @@ layout abc_screen_toolbar
 layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
+layout activity_main
 layout calendar_form
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1293,6 +1303,9 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout fragment_calendar
+layout fragment_home
+layout fragment_list
 layout input_activity
 layout month
 layout mr_chooser_dialog
@@ -1301,6 +1314,7 @@ layout mr_controller_material_dialog_b
 layout mr_controller_volume_item
 layout mr_playback_control
 layout mr_volume_control
+layout navigation
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -1323,6 +1337,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout tooltip
 layout week
+menu bottom_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description

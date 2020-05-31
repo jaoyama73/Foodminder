@@ -17,6 +17,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.foodminderschedule.MainActivity" >
+        </activity>
 
         <!-- Activity for inputting item and its expiration date to Calendar -->
         <activity android:name="com.example.foodminderschedule.InputActivity" >

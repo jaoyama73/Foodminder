@@ -4,7 +4,7 @@
             "outputFile": "/Users/aoyama/Foodminder/FoodminderSchedule/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v9/values-v9.xml",
             "map": [
                 {
-                    "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/a0570346b5359515502187244d60631a/android-times-square-1.6.5/res/values-v9/values-v9.xml",
+                    "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/c71b4e204686b01fbaa41e44614109ef/jetified-android-times-square-1.6.5/res/values-v9/values-v9.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
