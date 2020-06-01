@@ -10,11 +10,14 @@ import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.foodminderschedule.R;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class InputActivity extends AppCompatActivity {
     private static EditText item;
@@ -50,34 +53,53 @@ public class InputActivity extends AppCompatActivity {
         date = (EditText)findViewById(R.id.editText_date);
 
 
-
-
-
-
-
         // If 'Add' button is clicked
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Pass data as String array to Calendar
-                // Format: item '~' date
-                
+                // Format: item '-' date
+                Log.i("TAG",""+Calendar.getInstance().get(Calendar.YEAR)+" "+Calendar.getInstance().get(Calendar.MONTH)+1+" "+Calendar.getInstance().get(Calendar.DATE));
 
-                Intent toCalendarActivity = new Intent(getApplicationContext(),CalendarForm.class);
-                toCalendarActivity.putStringArrayListExtra("dataArray",dataArray);
-                dataArray.add(String.valueOf(item.getText())+"-"+String.valueOf(date.getText()));
-                dataSize++;
-
-                // Store in SharedPreference
-                SharedPreferences dataInfo = getSharedPreferences("dataInfo", Context.MODE_PRIVATE);
-                SharedPreferences.Editor editor = dataInfo.edit();
-                editor.putInt("dataSize",dataSize);
-                for(int i = 1;i<=dataSize;i++){
-                    editor.putString("data_"+Integer.toString(i),dataArray.get(i-1));
+                if(date.getText().toString().matches("")){
+                    Toast.makeText(getApplicationContext(),"Please enter the expiration date as YYYY/MM/DD",Toast.LENGTH_SHORT).show();
                 }
-                editor.apply();
-                //startActivity(toCalendarActivity);
+                else{
+                    // Make sure input is not in the past
+                    try{
+                        String[]YMD = String.valueOf(date.getText()).split("/");
+                    }
+                    finally{
+                        String[]YMD = String.valueOf(date.getText()).split("/");
+                        if (Integer.valueOf(YMD[0]) < Calendar.getInstance().get(Calendar.YEAR)
+                                || Integer.valueOf(YMD[1]) < Calendar.getInstance().get(Calendar.MONTH) + 1
+                                || Integer.valueOf(YMD[2]) < Calendar.getInstance().get(Calendar.DATE)) {
+                            if(YMD.length<3){
+                                Toast.makeText(getApplicationContext(), "Please enter the expiration date as YYYY/MM/DD", Toast.LENGTH_SHORT).show();}
 
+                            else {
+                            Toast.makeText(getApplicationContext(), "Please enter a date in the future", Toast.LENGTH_SHORT).show();}
+
+                        }else {
+                            Intent toCalendarActivity = new Intent(getApplicationContext(), CalendarForm.class);
+                            toCalendarActivity.putStringArrayListExtra("dataArray", dataArray);
+                            dataArray.add(String.valueOf(item.getText()) + "-" + String.valueOf(date.getText()));
+                            dataSize++;
+
+                            // Store in SharedPreference
+                            SharedPreferences dataInfo = getSharedPreferences("dataInfo", Context.MODE_PRIVATE);
+                            SharedPreferences.Editor editor = dataInfo.edit();
+                            editor.putInt("dataSize", dataSize);
+                            for (int i = 1; i <= dataSize; i++) {
+                                editor.putString("data_" + Integer.toString(i), dataArray.get(i - 1));
+                            }
+                            editor.apply();
+                            //
+
+                        }
+                    }
+
+                }
 
             }
         });
