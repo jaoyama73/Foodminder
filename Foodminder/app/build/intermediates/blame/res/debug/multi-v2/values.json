@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/res/values/values.xml",
@@ -42,7 +42,26 @@
                     }
                 },
                 {
-                    "source": "/Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/res/values/strings.xml",
+                    "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "54,335",
+                        "endLines": "8,14",
+                        "endColumns": "12,12",
+                        "endOffsets": "329,605"
+                    },
+                    "to": {
+                        "startLines": "492,498",
+                        "startColumns": "4,4",
+                        "startOffsets": "31257,31537",
+                        "endLines": "497,502",
+                        "endColumns": "12,12",
+                        "endOffsets": "31532,31803"
+                    }
+                },
+                {
+                    "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "1,5,4,9,6,7,3,10,2,8",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -56,6 +75,23 @@
                         "startOffsets": "27102,27551,27609,27669,27818,29302,29379,30364,30410,30458",
                         "endColumns": "47,57,59,71,39,76,45,45,47,69",
                         "endOffsets": "27145,27604,27664,27736,27853,29374,29420,30405,30453,30523"
+                    }
+                },
+                {
+                    "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "5,6,4,2,3",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "199,261,153,55,102",
+                        "endColumns": "61,58,45,46,50",
+                        "endOffsets": "256,315,194,97,148"
+                    },
+                    "to": {
+                        "startLines": "133,135,142,143,144",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "7168,7293,7715,7761,7808",
+                        "endColumns": "61,58,45,46,50",
+                        "endOffsets": "7225,7347,7756,7803,7854"
                     }
                 },
                 {
@@ -92,25 +128,6 @@
                         "startOffsets": "19645,19704,19752,20419,20494,20570,22975,170610",
                         "endColumns": "58,47,55,74,75,71,65,629",
                         "endOffsets": "19699,19747,19803,20489,20565,20637,23036,171235"
-                    }
-                },
-                {
-                    "source": "/Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,10",
-                        "startColumns": "4,4",
-                        "startOffsets": "54,335",
-                        "endLines": "8,14",
-                        "endColumns": "12,12",
-                        "endOffsets": "329,605"
-                    },
-                    "to": {
-                        "startLines": "492,498",
-                        "startColumns": "4,4",
-                        "startOffsets": "31257,31537",
-                        "endLines": "497,502",
-                        "endColumns": "12,12",
-                        "endOffsets": "31532,31803"
                     }
                 },
                 {
@@ -202,23 +219,6 @@
                         "startOffsets": "9910,116907,117083,117205,117467,117662",
                         "endColumns": "88,65,121,60,65,66",
                         "endOffsets": "9994,116968,117200,117261,117528,117724"
-                    }
-                },
-                {
-                    "source": "/Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "5,6,4,2,3",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "199,261,153,55,102",
-                        "endColumns": "61,58,45,46,50",
-                        "endOffsets": "256,315,194,97,148"
-                    },
-                    "to": {
-                        "startLines": "133,135,142,143,144",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "7168,7293,7715,7761,7808",
-                        "endColumns": "61,58,45,46,50",
-                        "endOffsets": "7225,7347,7756,7803,7854"
                     }
                 }
             ]

@@ -32,6 +32,7 @@ public class InputActivity extends AppCompatActivity {
         Intent intent = getIntent();
         dataArray.clear();
         dataArray = intent.getStringArrayListExtra("dataArray");
+        //SharedPreferences data = getSharedPreferences("dataInfo", Context.MODE_PRIVATE);
         // If received previous data -> get the number of data/items
         if (dataArray != null) {
             dataSize = dataArray.size();
@@ -74,6 +75,8 @@ public class InputActivity extends AppCompatActivity {
                 }
                 editor.apply();
                 //startActivity(toCalendarActivity);
+
+
             }
         });
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/res/values-ldltr-v21/values-ldltr-v21.xml",

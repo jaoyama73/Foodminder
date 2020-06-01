@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Foodminder.iml" filepath="$PROJECT_DIR$/Foodminder.iml" group="Foodminder" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Foodminder-master.iml" filepath="$PROJECT_DIR$/.idea/Foodminder-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Foodminder/app" />
     </modules>
   </component>
 </project>

@@ -38,6 +38,8 @@
             android:name="com.example.foodminderschedule.PopUp"
             android:theme="@style/AppTheme.PopUpTheme" >
         </activity>
+        <activity android:name="com.example.foodminderschedule.DateList" >
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"

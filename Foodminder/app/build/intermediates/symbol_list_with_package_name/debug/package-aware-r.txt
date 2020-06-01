@@ -1081,6 +1081,7 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id date_list
 id day_view_adapter_class
 id decor_content_parent
 id default_activity_button
@@ -1289,6 +1290,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout calendar_form
+layout date_list
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

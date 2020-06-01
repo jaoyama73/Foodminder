@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:17:1-31:12
@@ -21,25 +21,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/aoyama/.gradl
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b284f0fd717a97a52261154830a4728/support-core-ui-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/30c2c9865f53b929cd3822f62a67836d/support-compat-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:3:5-45
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:1-45:12
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:5:5-43:19
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:5:5-48:19
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:22:5-26:19
@@ -73,49 +73,53 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/aoyama/.gradle/ca
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.foodminderschedule.MainActivity
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:12:9-22:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:12:9-22:20
 	android:name
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:14:13-20:29
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:14:13-20:29
 action#android.intent.action.MAIN
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:15:17-16:65
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:15:17-16:65
 	android:name
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:16:21-62
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:16:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:18:17-19:71
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:18:17-19:71
 	android:name
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:19:21-68
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:19:21-68
 activity#com.example.foodminderschedule.InputActivity
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:26:9-29:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:26:9-29:20
 	android:name
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:27:13-72
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:27:13-72
 activity#com.example.foodminderschedule.CalendarForm
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:32:9-35:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:32:9-35:20
 	android:name
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:33:13-71
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:33:13-71
 activity#com.example.foodminderschedule.PopUp
-ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:38:9-42:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:38:9-42:20
 	android:theme
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:40:13-55
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:40:13-55
 	android:name
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml:39:13-34
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:39:13-34
+activity#com.example.foodminderschedule.DateList
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:44:9-47:20
+	android:name
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:45:13-67
 uses-sdk
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:20:5-44
@@ -150,18 +154,18 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/aoyama/.gradle/ca
 MERGED from [com.android.support:support-compat:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/30c2c9865f53b929cd3822f62a67836d/support-compat-26.1.0/AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:23:9-25:38

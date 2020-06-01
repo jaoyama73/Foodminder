@@ -8,6 +8,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             dataArray = new ArrayList<>();
             dataSize = 0;
         }
+        Log.i("tag",String.valueOf(dataArray));
 
         BottomNavigationView bottomNav = (BottomNavigationView)findViewById(R.id.bottom_navigation);
         Menu menu = bottomNav.getMenu();
@@ -56,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent2);
                         break;
                     case R.id.nav_list:
-                        Intent intent3 = new Intent(MainActivity.this,InputActivity.class);
+                        Intent intent3 = new Intent(MainActivity.this,DateList.class);
                         startActivity(intent3);
                         break;
                 }

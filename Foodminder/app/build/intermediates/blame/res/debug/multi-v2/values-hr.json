@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
+            "outputFile": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
             "map": [
                 {
                     "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/res/values-hr/values-hr.xml",

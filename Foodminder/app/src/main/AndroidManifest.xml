@@ -40,6 +40,11 @@
             android:theme="@style/AppTheme.PopUpTheme">
 
         </activity>
+
+        <activity
+            android:name="com.example.foodminderschedule.DateList">
+
+        </activity>
     </application>
 
 </manifest>

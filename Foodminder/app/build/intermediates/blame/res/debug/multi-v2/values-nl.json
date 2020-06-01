@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/aoyama/Downloads/Foodminder-master/FoodminderSchedule/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
+            "outputFile": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml",
             "map": [
                 {
                     "source": "/Users/aoyama/.gradle/caches/transforms-2/files-2.1/c71b4e204686b01fbaa41e44614109ef/jetified-android-times-square-1.6.5/res/values-nl/values-nl.xml",

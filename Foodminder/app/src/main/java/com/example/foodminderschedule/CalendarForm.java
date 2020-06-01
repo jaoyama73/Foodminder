@@ -39,6 +39,7 @@ public class CalendarForm extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.calendar_form);
 
+        dataArray.clear();
         BottomNavigationView bottomNav = (BottomNavigationView)findViewById(R.id.bottom_navigation);
         Menu menu = bottomNav.getMenu();
         MenuItem menuItem = menu.getItem(1);
@@ -50,13 +51,14 @@ public class CalendarForm extends AppCompatActivity {
                 switch (item.getItemId()){
                     case R.id.nav_home:
                         Intent intent1 = new Intent(CalendarForm.this,MainActivity.class);
+                        intent1.putStringArrayListExtra("dataArray",dataArray);
                         startActivity(intent1);
                         break;
                     case R.id.nav_calendar:
 
                         break;
                     case R.id.nav_list:
-                        Intent intent3 = new Intent(CalendarForm.this,InputActivity.class);
+                        Intent intent3 = new Intent(CalendarForm.this,DateList.class);
                         startActivity(intent3);
                         break;
                 }
