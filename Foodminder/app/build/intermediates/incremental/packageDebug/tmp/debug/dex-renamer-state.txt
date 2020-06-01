@@ -1,4 +1,4 @@
-#Mon Jun 01 02:33:50 PDT 2020
+#Mon Jun 01 03:45:31 PDT 2020
 base.0=/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

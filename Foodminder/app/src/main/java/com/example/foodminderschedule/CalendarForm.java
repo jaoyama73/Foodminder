@@ -94,8 +94,8 @@ public class CalendarForm extends AppCompatActivity {
         // Process the dataArray received from SHaredPreference
         for (String i : dataArray) {
             // Split data element into item and date
-            String itemReceived = i.split("~")[0];
-            String dateReceived = i.split("~")[1];
+            String itemReceived = i.split("-")[0];
+            String dateReceived = i.split("-")[1];
 
             // Split date information into Year, Month, Date
             String[] YMD = dateReceived.split("/");

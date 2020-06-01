@@ -61,9 +61,11 @@ public class InputActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Pass data as String array to Calendar
                 // Format: item '~' date
+                
+
                 Intent toCalendarActivity = new Intent(getApplicationContext(),CalendarForm.class);
                 toCalendarActivity.putStringArrayListExtra("dataArray",dataArray);
-                dataArray.add(String.valueOf(item.getText())+"~"+String.valueOf(date.getText()));
+                dataArray.add(String.valueOf(item.getText())+"-"+String.valueOf(date.getText()));
                 dataSize++;
 
                 // Store in SharedPreference

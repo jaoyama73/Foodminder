@@ -38,28 +38,7 @@ public class DateList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.date_list);
 
-        /*
-        if (savedInstanceState !=null)
-        {
-            //saveed from rotation
-            cardArray=savedInstanceState.getStringArrayList("food_list");
-        }
-        else
-        {
-            //nosaved date
-            sharedPreferences=getSharedPreferences("fooddate",MODE_PRIVATE);
-            String json=sharedPreferences.getString("allfooddate", "");
-            if (json.length()!=0){
-                //convert from json to card array
-                Gson gson=new Gson();
-                cardArray=gson.fromJson(json,new TypeToken<ArrayList<String>>(){}.getType());
-            }
-            else{
-                cardArray = new ArrayList<>();
-            }
-
-        }*/
-
+        // Get previous dataArray if there is any
         dataArray.clear();
         SharedPreferences info = getSharedPreferences("dataInfo", Context.MODE_PRIVATE);
         int index = info.getInt("dataSize", 0);
@@ -68,9 +47,11 @@ public class DateList extends AppCompatActivity {
             dataArray.add(eachData);
         }
 
-        Log.i("tag",String.valueOf(dataArray));
+        // Sort the date
         Collections.sort(dataArray);
 
+
+        // Add the arraylist to listView through adapter
         cardList = findViewById(R.id.date_list);
         adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, dataArray);
         cardList.setAdapter(adapter);
@@ -79,7 +60,7 @@ public class DateList extends AppCompatActivity {
 
 
 
-
+        // NavBar config
         BottomNavigationView bottomNav = (BottomNavigationView)findViewById(R.id.bottom_navigation);
         Menu menu = bottomNav.getMenu();
         MenuItem menuItem = menu.getItem(2);
@@ -121,18 +102,8 @@ public class DateList extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        /*
-        sharedPreferences=getSharedPreferences("fooddate",MODE_PRIVATE);
-        String cardNumber=sharedPreferences.getString("foodinfo", "");
-        if (cardNumber.length()!=0)
-        {
-            dataArray.add(cardNumber);
-            adapter.notifyDataSetChanged();
-            Toast.makeText(this,"date was saved", Toast.LENGTH_SHORT).show();
-        };
-        sharedPreferencesEditor=sharedPreferences.edit();
-        sharedPreferencesEditor.clear();
-        sharedPreferencesEditor.commit();*/
+
+        // Sort the array (2)
         Collections.sort(dataArray);
 
 
@@ -143,6 +114,7 @@ public class DateList extends AppCompatActivity {
     @Override protected  void onPause()
     {
         super.onPause();
+        // TBD
         sharedPreferences=getSharedPreferences("fooddate",MODE_PRIVATE);
         sharedPreferencesEditor=sharedPreferences.edit();
         Gson gson=new Gson();

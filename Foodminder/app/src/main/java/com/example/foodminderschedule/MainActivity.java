@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.navigation);
 
 
-
+        // Receive intent from other activities (for update dataArray)
         Intent intent = getIntent();
         dataArray.clear();
         dataArray = intent.getStringArrayListExtra("dataArray");
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         }
         Log.i("tag",String.valueOf(dataArray));
 
+        // NavBar Config
         BottomNavigationView bottomNav = (BottomNavigationView)findViewById(R.id.bottom_navigation);
         Menu menu = bottomNav.getMenu();
         MenuItem menuItem = menu.getItem(0);
@@ -70,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
         ImageView addByText = findViewById(R.id.input_text);
         ImageView addByCamera = findViewById(R.id.input_camera);
+
+        // If addByText is clicked, move to InputActivity
         addByText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
