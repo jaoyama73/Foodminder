@@ -85,7 +85,7 @@ public class InputActivity extends AppCompatActivity {
                             toCalendarActivity.putStringArrayListExtra("dataArray", dataArray);
                             dataArray.add(String.valueOf(item.getText()) + "-" + String.valueOf(date.getText()));
                             dataSize++;
-
+                            Toast.makeText(getApplicationContext(), "Successfully added!", Toast.LENGTH_SHORT).show();
                             // Store in SharedPreference
                             SharedPreferences dataInfo = getSharedPreferences("dataInfo", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor = dataInfo.edit();

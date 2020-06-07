@@ -10,74 +10,185 @@
 9        android:targetSdkVersion="26" />
 9-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:5:5-48:19
-12        android:allowBackup="true"
-12-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:6:9-35
-13        android:debuggable="true"
-14        android:icon="@mipmap/ic_launcher"
-14-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:7:9-43
-15        android:label="@string/app_name"
-15-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:8:9-41
-16        android:roundIcon="@mipmap/ic_launcher_round"
-16-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:9:9-54
-17        android:supportsRtl="true"
-17-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:10:9-35
-18        android:testOnly="true"
-19        android:theme="@style/AppTheme" >
-19-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.foodminderschedule.MainActivity" >
-20-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:12:9-22:20
-20-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:13:13-41
-21            <intent-filter>
-21-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:14:13-20:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:15:17-16:65
-22-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:16:21-62
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:18:17-19:71
-24-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:19:21-68
-25            </intent-filter>
-26        </activity>
-27
-28        <!-- Activity for inputting item and its expiration date to Calendar -->
-29        <activity android:name="com.example.foodminderschedule.InputActivity" >
-29-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:26:9-29:20
-29-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:27:13-72
-30        </activity>
-31
-32        <!-- Activity for Calendar -->
-33        <activity android:name="com.example.foodminderschedule.CalendarForm" >
-33-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:32:9-35:20
-33-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:33:13-71
-34        </activity>
+11    <uses-feature android:name="android.hardware.camera" />
+11-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:4:5-60
+11-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:4:19-57
+12    <uses-feature android:name="android.hardware.camera.autofocus" />
+12-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:5:5-70
+12-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:5:19-67
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:6:5-66
+14-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:7:5-65
+15-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:7:22-62
+16
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:27:5-29:36
+18        android:name="android.hardware.camera.front"
+18-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:28:9-53
+19        android:required="false" />
+19-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:29:9-33
+20    <uses-feature
+20-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:35:5-37:36
+21        android:name="android.hardware.camera.flash"
+21-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:36:9-53
+22        android:required="false" />
+22-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:37:9-33
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:38:5-40:36
+24        android:name="android.hardware.screen.landscape"
+24-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:39:9-57
+25        android:required="false" />
+25-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:40:9-33
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:41:5-43:36
+27        android:name="android.hardware.wifi"
+27-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:42:9-45
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:43:9-33
+29
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions required for GCM -->
+30-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:21:5-78
+30-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:21:22-76
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->[com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:21:5-82
+31-->[com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:21:22-79
+32    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+32-->[com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:21:5-70
+32-->[com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:21:22-68
+33    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+33-->[com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:22:5-73
+33-->[com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:22:22-71
+34    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+34-->[com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:22:5-80
+34-->[com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:22:22-78
 35
-36        <!-- Activity for Pop-up window after a date is clicked -->
-37        <activity
-37-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:38:9-42:20
-38            android:name="com.example.foodminderschedule.PopUp"
-38-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:39:13-34
-39            android:theme="@style/AppTheme.PopUpTheme" >
-39-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:40:13-55
-40        </activity>
-41        <activity android:name="com.example.foodminderschedule.DateList" >
-41-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:44:9-47:20
-41-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:45:13-67
-42        </activity>
-43
-44        <meta-data
-44-->[com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:26:9-28:38
-45            android:name="android.support.VERSION"
-45-->[com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:27:13-51
-46            android:value="26.1.0" />
-46-->[com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:28:13-35
-47        <meta-data
-47-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
-48            android:name="android.arch.lifecycle.VERSION"
-48-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:26:13-58
-49            android:value="27.0.0-SNAPSHOT" />
-49-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:27:13-44
-50    </application>
-51
-52</manifest>
+36    <uses-feature
+36-->[com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:23:5-25:33
+37        android:glEsVersion="0x00020000"
+37-->[com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:24:8-40
+38        android:required="true" />
+38-->[com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:25:8-31
+39
+40    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+41
+42    <application
+42-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:9:5-59:19
+43        android:allowBackup="true"
+43-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:10:9-35
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:11:9-43
+46        android:label="@string/app_name"
+46-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:12:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:13:9-54
+48        android:supportsRtl="true"
+48-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:14:9-35
+49        android:testOnly="true"
+50        android:theme="@style/AppTheme" >
+50-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:15:9-40
+51        <activity android:name="com.example.foodminderschedule.MainActivity" >
+51-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:16:9-26:20
+51-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:17:13-41
+52            <intent-filter>
+52-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:18:13-24:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:19:17-20:65
+53-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:20:21-62
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:22:17-23:71
+55-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:23:21-68
+56            </intent-filter>
+57        </activity>
+58
+59        <!-- Activity for inputting item and its expiration date to Calendar -->
+60        <activity android:name="com.example.foodminderschedule.InputActivity" >
+60-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:30:9-33:20
+60-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:31:13-72
+61        </activity>
+62
+63        <!-- Activity for Calendar -->
+64        <activity android:name="com.example.foodminderschedule.CalendarForm" >
+64-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:36:9-39:20
+64-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:37:13-71
+65        </activity>
+66
+67        <!-- Activity for Pop-up window after a date is clicked -->
+68        <activity
+68-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:42:9-46:20
+69            android:name="com.example.foodminderschedule.PopUp"
+69-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:43:13-34
+70            android:theme="@style/AppTheme.PopUpTheme" >
+70-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:44:13-55
+71        </activity>
+72        <activity android:name="com.example.foodminderschedule.DateList" >
+72-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:48:9-51:20
+72-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:49:13-67
+73        </activity>
+74        <activity
+74-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:52:9-58:20
+75            android:name="com.example.foodminderschedule.BarcodeActivity"
+75-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:53:13-74
+76            android:screenOrientation="fullSensor"
+76-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:54:13-51
+77            android:stateNotNeeded="true"
+77-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:55:13-42
+78            android:windowSoftInputMode="stateAlwaysHidden" >
+78-->/Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:56:13-60
+79        </activity>
+80
+81        <meta-data
+81-->[com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:26:9-28:38
+82            android:name="android.support.VERSION"
+82-->[com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:27:13-51
+83            android:value="26.1.0" />
+83-->[com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:28:13-35
+84
+85        <activity
+85-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:46:9-52:63
+86            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+86-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:47:13-74
+87            android:clearTaskOnLaunch="true"
+87-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:48:13-45
+88            android:screenOrientation="sensorLandscape"
+88-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:49:13-56
+89            android:stateNotNeeded="true"
+89-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:50:13-42
+90            android:theme="@style/zxing_CaptureTheme"
+90-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:51:13-54
+91            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+91-->[com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:52:13-60
+92        <activity
+92-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:26:9-29:64
+93            android:name="com.google.android.gms.ads.AdActivity"
+93-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:27:13-65
+94            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+94-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:28:13-122
+95            android:theme="@android:style/Theme.Translucent" />
+95-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:29:13-61
+96        <activity
+96-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:30:9-31:52
+97            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+97-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:30:19-91
+98            android:theme="@style/Theme.IAPTheme" />
+98-->[com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:31:13-50
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:21:9-23:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:22:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:23:13-66
+103        <meta-data
+103-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
+104            android:name="android.arch.lifecycle.VERSION"
+104-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:26:13-58
+105            android:value="27.0.0-SNAPSHOT" />
+105-->[android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:27:13-44
+106    </application>
+107
+108</manifest>

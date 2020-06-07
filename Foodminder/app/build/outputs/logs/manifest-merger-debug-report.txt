@@ -1,18 +1,41 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65948e4dbac29cd48ce3babcd5397fd9/play-services-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-cast:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/9d1b666ce9652f498cf13e39be09a58b/play-services-cast-7.8.0/AndroidManifest.xml:16:1-20:12
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.squareup:android-times-square:1.6.5] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c71b4e204686b01fbaa41e44614109ef/jetified-android-times-square-1.6.5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:17:1-55:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0be6f760b17962e3c54e3840352a8b37/animated-vector-drawable-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/424879dfd41f76ca294f239aab60e839/support-vector-drawable-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b7a0c702b4c2b55caf9a175f5b41a11/recyclerview-v7-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e64cf4aaca1025524a8ce121501014ba/transition-26.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-appindexing:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e2a2aa97940aba2fb2fed2f3ed09c3b3/play-services-appindexing-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-appinvite:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/552be9d2cdfb6dbb31e9644c6010df37/play-services-appinvite-7.8.0/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-appstate:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/61978e97e98ad96f0f45f3e77fdacc0b/play-services-appstate-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-games:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/897f55978b33e0a587f02c8ae1918fb3/play-services-games-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-drive:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/aef63855d2fb4f8d1e843df3e31a9ddc/play-services-drive-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-fitness:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/be20b914628cf3443a475c3a3aec8f0f/play-services-fitness-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-identity:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6d06d42a422e360e21114e6c31f171d0/play-services-identity-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-location:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/3ac3c104746032b2ee37cf1be2142659/play-services-location-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.android.gms:play-services-nearby:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6ea7e8471ea0dae98bc358d3f37ef247/play-services-nearby-7.8.0/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-panorama:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dee10d0d3dbf3dab98fe6200a426dd0e/play-services-panorama-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-plus:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/73bb584220329115217627f679420232/play-services-plus-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-safetynet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/a3efdad5bbf57410430555a60167e6ec/play-services-safetynet-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-vision:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4d2da5526645f9a044b1e08b13c387c7/play-services-vision-7.8.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8ff72ee99326794d59fdd307f85a0433/play-services-wearable-7.8.0/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2bf8f95ab94366698cc7bc04fd2283fd/support-v4-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:palette-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/aa3929ec63b7b5d0ab2681b2e39cb8e0/palette-v7-26.1.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/ce685f01a8afe01af0e1ad3e8c9fc18b/support-media-compat-26.1.0/AndroidManifest.xml:17:1-31:12
@@ -21,33 +44,73 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/aoyama/.gradl
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b284f0fd717a97a52261154830a4728/support-core-ui-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/30c2c9865f53b929cd3822f62a67836d/support-compat-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
 	package
 		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
 		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-50:12
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12
 		INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:4:5-60
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:24:5-26:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:24:5-26:36
+	android:name
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:4:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:5:5-70
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:32:5-34:36
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:32:5-34:36
+	android:name
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:5:19-67
+uses-permission#android.permission.INTERNET
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/552be9d2cdfb6dbb31e9644c6010df37/play-services-appinvite-7.8.0/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/552be9d2cdfb6dbb31e9644c6010df37/play-services-appinvite-7.8.0/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:7:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:21:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:7:22-62
 application
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:5:5-48:19
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:9:5-59:19
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65948e4dbac29cd48ce3babcd5397fd9/play-services-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65948e4dbac29cd48ce3babcd5397fd9/play-services-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/9d1b666ce9652f498cf13e39be09a58b/play-services-cast-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-cast:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/9d1b666ce9652f498cf13e39be09a58b/play-services-cast-7.8.0/AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:45:5-53:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0be6f760b17962e3c54e3840352a8b37/animated-vector-drawable-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0be6f760b17962e3c54e3840352a8b37/animated-vector-drawable-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/424879dfd41f76ca294f239aab60e839/support-vector-drawable-26.1.0/AndroidManifest.xml:22:5-26:19
@@ -56,6 +119,44 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/c
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b7a0c702b4c2b55caf9a175f5b41a11/recyclerview-v7-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e64cf4aaca1025524a8ce121501014ba/transition-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e64cf4aaca1025524a8ce121501014ba/transition-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e2a2aa97940aba2fb2fed2f3ed09c3b3/play-services-appindexing-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e2a2aa97940aba2fb2fed2f3ed09c3b3/play-services-appindexing-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/552be9d2cdfb6dbb31e9644c6010df37/play-services-appinvite-7.8.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/552be9d2cdfb6dbb31e9644c6010df37/play-services-appinvite-7.8.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-appstate:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/61978e97e98ad96f0f45f3e77fdacc0b/play-services-appstate-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appstate:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/61978e97e98ad96f0f45f3e77fdacc0b/play-services-appstate-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/897f55978b33e0a587f02c8ae1918fb3/play-services-games-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-games:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/897f55978b33e0a587f02c8ae1918fb3/play-services-games-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/aef63855d2fb4f8d1e843df3e31a9ddc/play-services-drive-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/aef63855d2fb4f8d1e843df3e31a9ddc/play-services-drive-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/be20b914628cf3443a475c3a3aec8f0f/play-services-fitness-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/be20b914628cf3443a475c3a3aec8f0f/play-services-fitness-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-identity:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6d06d42a422e360e21114e6c31f171d0/play-services-identity-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-identity:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6d06d42a422e360e21114e6c31f171d0/play-services-identity-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/3ac3c104746032b2ee37cf1be2142659/play-services-location-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/3ac3c104746032b2ee37cf1be2142659/play-services-location-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-nearby:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6ea7e8471ea0dae98bc358d3f37ef247/play-services-nearby-7.8.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-nearby:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6ea7e8471ea0dae98bc358d3f37ef247/play-services-nearby-7.8.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dee10d0d3dbf3dab98fe6200a426dd0e/play-services-panorama-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-panorama:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dee10d0d3dbf3dab98fe6200a426dd0e/play-services-panorama-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/73bb584220329115217627f679420232/play-services-plus-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/73bb584220329115217627f679420232/play-services-plus-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/a3efdad5bbf57410430555a60167e6ec/play-services-safetynet-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/a3efdad5bbf57410430555a60167e6ec/play-services-safetynet-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4d2da5526645f9a044b1e08b13c387c7/play-services-vision-7.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4d2da5526645f9a044b1e08b13c387c7/play-services-vision-7.8.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8ff72ee99326794d59fdd307f85a0433/play-services-wearable-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-wearable:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8ff72ee99326794d59fdd307f85a0433/play-services-wearable-7.8.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2bf8f95ab94366698cc7bc04fd2283fd/support-v4-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2bf8f95ab94366698cc7bc04fd2283fd/support-v4-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:palette-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/aa3929ec63b7b5d0ab2681b2e39cb8e0/palette-v7-26.1.0/AndroidManifest.xml:22:5-26:19
@@ -73,55 +174,69 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/aoyama/.gradle/ca
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:15:9-40
 activity#com.example.foodminderschedule.MainActivity
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:12:9-22:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:16:9-26:20
 	android:name
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:14:13-20:29
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:18:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:15:17-16:65
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:19:17-20:65
 	android:name
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:16:21-62
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:20:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:18:17-19:71
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:22:17-23:71
 	android:name
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:19:21-68
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:23:21-68
 activity#com.example.foodminderschedule.InputActivity
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:26:9-29:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:30:9-33:20
 	android:name
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:27:13-72
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:31:13-72
 activity#com.example.foodminderschedule.CalendarForm
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:32:9-35:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:36:9-39:20
 	android:name
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:33:13-71
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:37:13-71
 activity#com.example.foodminderschedule.PopUp
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:38:9-42:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:42:9-46:20
 	android:theme
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:40:13-55
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:44:13-55
 	android:name
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:39:13-34
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:43:13-34
 activity#com.example.foodminderschedule.DateList
-ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:44:9-47:20
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:48:9-51:20
 	android:name
-		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:45:13-67
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:49:13-67
+activity#com.example.foodminderschedule.BarcodeActivity
+ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:52:9-58:20
+	android:screenOrientation
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:54:13-51
+	android:stateNotNeeded
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:55:13-42
+	android:windowSoftInputMode
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:56:13-60
+	android:name
+		ADDED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:53:13-74
 uses-sdk
 INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65948e4dbac29cd48ce3babcd5397fd9/play-services-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65948e4dbac29cd48ce3babcd5397fd9/play-services-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/9d1b666ce9652f498cf13e39be09a58b/play-services-cast-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-cast:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/9d1b666ce9652f498cf13e39be09a58b/play-services-cast-7.8.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:21:5-23:78
@@ -130,6 +245,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoya
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.squareup:android-times-square:1.6.5] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c71b4e204686b01fbaa41e44614109ef/jetified-android-times-square-1.6.5/AndroidManifest.xml:7:5-43
 MERGED from [com.squareup:android-times-square:1.6.5] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c71b4e204686b01fbaa41e44614109ef/jetified-android-times-square-1.6.5/AndroidManifest.xml:7:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:19:5-43
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0be6f760b17962e3c54e3840352a8b37/animated-vector-drawable-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0be6f760b17962e3c54e3840352a8b37/animated-vector-drawable-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/424879dfd41f76ca294f239aab60e839/support-vector-drawable-26.1.0/AndroidManifest.xml:20:5-44
@@ -138,6 +255,46 @@ MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/c
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b7a0c702b4c2b55caf9a175f5b41a11/recyclerview-v7-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e64cf4aaca1025524a8ce121501014ba/transition-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e64cf4aaca1025524a8ce121501014ba/transition-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e2a2aa97940aba2fb2fed2f3ed09c3b3/play-services-appindexing-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/e2a2aa97940aba2fb2fed2f3ed09c3b3/play-services-appindexing-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/552be9d2cdfb6dbb31e9644c6010df37/play-services-appinvite-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/552be9d2cdfb6dbb31e9644c6010df37/play-services-appinvite-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/61978e97e98ad96f0f45f3e77fdacc0b/play-services-appstate-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/61978e97e98ad96f0f45f3e77fdacc0b/play-services-appstate-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/897f55978b33e0a587f02c8ae1918fb3/play-services-games-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-games:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/897f55978b33e0a587f02c8ae1918fb3/play-services-games-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/aef63855d2fb4f8d1e843df3e31a9ddc/play-services-drive-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/aef63855d2fb4f8d1e843df3e31a9ddc/play-services-drive-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/be20b914628cf3443a475c3a3aec8f0f/play-services-fitness-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/be20b914628cf3443a475c3a3aec8f0f/play-services-fitness-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6d06d42a422e360e21114e6c31f171d0/play-services-identity-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6d06d42a422e360e21114e6c31f171d0/play-services-identity-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/3ac3c104746032b2ee37cf1be2142659/play-services-location-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/3ac3c104746032b2ee37cf1be2142659/play-services-location-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-nearby:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6ea7e8471ea0dae98bc358d3f37ef247/play-services-nearby-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6ea7e8471ea0dae98bc358d3f37ef247/play-services-nearby-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dee10d0d3dbf3dab98fe6200a426dd0e/play-services-panorama-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/dee10d0d3dbf3dab98fe6200a426dd0e/play-services-panorama-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/73bb584220329115217627f679420232/play-services-plus-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/73bb584220329115217627f679420232/play-services-plus-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/a3efdad5bbf57410430555a60167e6ec/play-services-safetynet-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/a3efdad5bbf57410430555a60167e6ec/play-services-safetynet-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4d2da5526645f9a044b1e08b13c387c7/play-services-vision-7.8.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4d2da5526645f9a044b1e08b13c387c7/play-services-vision-7.8.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wearable:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8ff72ee99326794d59fdd307f85a0433/play-services-wearable-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wearable:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8ff72ee99326794d59fdd307f85a0433/play-services-wearable-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2bf8f95ab94366698cc7bc04fd2283fd/support-v4-26.1.0/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/2bf8f95ab94366698cc7bc04fd2283fd/support-v4-26.1.0/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:palette-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/aa3929ec63b7b5d0ab2681b2e39cb8e0/palette-v7-26.1.0/AndroidManifest.xml:20:5-44
@@ -198,6 +355,98 @@ MERGED from [com.android.support:support-compat:26.1.0] /Users/aoyama/.gradle/ca
 		ADDED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:28:13-35
 	android:name
 		ADDED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:27:13-51
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.4.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4e03ab09ac4b3b038d5c956f94c29670/zxing-android-embedded-3.4.0/AndroidManifest.xml:47:13-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/4948366454cafa6470550dcfed9259cf/play-services-analytics-7.8.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-nearby:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6ea7e8471ea0dae98bc358d3f37ef247/play-services-nearby-7.8.0/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-nearby:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6ea7e8471ea0dae98bc358d3f37ef247/play-services-nearby-7.8.0/AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:21:22-76
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/0f83be24ab10216237226ee70691cc0d/play-services-ads-7.8.0/AndroidManifest.xml:30:19-91
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/8a94dc3aa94fe650b8218b57bd87e5f1/play-services-gcm-7.8.0/AndroidManifest.xml:21:22-79
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:21:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/57806488002bdae0acf4a507d0d950e3/play-services-wallet-7.8.0/AndroidManifest.xml:22:22-71
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:22:22-78
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:23:5-25:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:24:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6abfe171242cef3f569e052d0a8769f0/play-services-maps-7.8.0/AndroidManifest.xml:25:8-31
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-61:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:7.8.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/611da755c4a54a739e00f28ec9837ebc/play-services-base-7.8.0/AndroidManifest.xml:22:13-58
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/80d16882df84533bd1e54bba9b1c4328/runtime-1.0.0/AndroidManifest.xml:25:9-27:47
 	android:value
