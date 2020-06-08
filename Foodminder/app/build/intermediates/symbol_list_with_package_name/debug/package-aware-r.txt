@@ -1176,6 +1176,9 @@ id forever
 id fragment_container
 id ghost_view
 id graphicOverlay
+id guideline
+id guideline2
+id guideline3
 id home
 id homeAsUp
 id icon

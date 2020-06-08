@@ -12,6 +12,7 @@
         style="@android:style/Widget.AutoCompleteTextView"
         android:layout_width="243dp"
         android:layout_height="49dp"
+        android:layout_marginBottom="5dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="Enter Item Name"
@@ -19,17 +20,16 @@
         android:selectAllOnFocus="false"
         android:singleLine="true"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/editText_date"
         style="@android:style/Widget.AutoCompleteTextView"
         android:layout_width="246dp"
         android:layout_height="50dp"
+        android:layout_marginTop="5dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="Enter Expiration Date"
@@ -37,38 +37,43 @@
         android:selectAllOnFocus="false"
         android:singleLine="true"
         android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_item"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
         android:id="@+id/button_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="85dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="227dp"
+        android:layout_marginBottom="5dp"
         android:text="Add to Calendar"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_return"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_date" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_return"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="5dp"
         android:text="Return to Main"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_add"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.72" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.32" />
 
 
 </android.support.constraint.ConstraintLayout>
