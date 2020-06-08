@@ -66,6 +66,7 @@ attr autoSizePresetSizes
 attr autoSizeStepGranularity
 attr autoSizeTextType
 attr background
+attr backgroundColor
 attr backgroundSplit
 attr backgroundStacked
 attr backgroundTint
@@ -124,6 +125,7 @@ attr contentInsetStart
 attr contentInsetStartWithNavigation
 attr contentScrim
 attr controlBackground
+attr cornerSize
 attr counterEnabled
 attr counterMaxLength
 attr counterOverflowTextAppearance
@@ -292,6 +294,7 @@ attr navigationIcon
 attr navigationMode
 attr numericModifiers
 attr overlapAnchor
+attr padding
 attr paddingBottomNoButtons
 attr paddingEnd
 attr paddingStart
@@ -381,9 +384,11 @@ attr textAppearancePopupMenuHeader
 attr textAppearanceSearchResultSubtitle
 attr textAppearanceSearchResultTitle
 attr textAppearanceSmallPopupMenu
+attr textColor
 attr textColorAlertDialogListItem
 attr textColorError
 attr textColorSearchUrl
+attr textSize
 attr theme
 attr thickness
 attr thumbTextPadding
@@ -1083,6 +1088,8 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font cormorant_unicase_light
+font monoton
 id ALT
 id CTRL
 id FUNCTION
@@ -1299,6 +1306,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id text_input_password_toggle
 id text_view
 id textinput_counter
@@ -1999,6 +2007,7 @@ styleable SignInButton buttonSize colorScheme scopeUris
 styleable SnackbarLayout android_maxWidth elevation maxActionInlineWidth
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
+styleable TabDigit backgroundColor cornerSize padding textColor textSize
 styleable TabItem android_icon android_layout android_text
 styleable TabLayout tabBackground tabContentStart tabGravity tabIndicatorColor tabIndicatorHeight tabMaxWidth tabMinWidth tabMode tabPadding tabPaddingBottom tabPaddingEnd tabPaddingStart tabPaddingTop tabSelectedTextColor tabTextAppearance tabTextColor
 styleable TextAppearance android_textSize android_typeface android_textStyle android_textColor android_textColorHint android_textColorLink android_shadowColor android_shadowDx android_shadowDy android_shadowRadius android_fontFamily fontFamily textAllCaps

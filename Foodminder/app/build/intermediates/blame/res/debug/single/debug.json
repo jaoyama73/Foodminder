@@ -12,6 +12,10 @@
         "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/font_cormorant_unicase_light.ttf.flat",
+        "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/font/cormorant_unicase_light.ttf"
+    },
+    {
         "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/drawable-ldpi_ic_list_black_24dp.png.flat",
         "source": "/Users/aoyama/Foodminder/Foodminder/app/build/generated/res/pngs/debug/drawable-ldpi/ic_list_black_24dp.png"
     },
@@ -52,6 +56,10 @@
         "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/layout/text_recognize.xml"
     },
     {
+        "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/font_monoton.ttf.flat",
+        "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/font/monoton.ttf"
+    },
+    {
         "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/layout_input_activity.xml.flat",
         "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/layout/input_activity.xml"
     },
@@ -60,12 +68,12 @@
         "source": "/Users/aoyama/Foodminder/Foodminder/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_list_black_24dp.png"
     },
     {
-        "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_today_black_24dp.png.flat",
-        "source": "/Users/aoyama/Foodminder/Foodminder/app/build/generated/res/pngs/debug/drawable-mdpi/ic_today_black_24dp.png"
-    },
-    {
         "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "/Users/aoyama/Foodminder/Foodminder/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_today_black_24dp.png.flat",
+        "source": "/Users/aoyama/Foodminder/Foodminder/app/build/generated/res/pngs/debug/drawable-mdpi/ic_today_black_24dp.png"
     },
     {
         "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/layout_navigation.xml.flat",

@@ -6,6 +6,7 @@ INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.x
 INJECTED from /Users/aoyama/Foodminder/Foodminder/app/src/main/AndroidManifest.xml:2:1-65:12
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.xenione.libs:tab-digit:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c2264b8970ea843cd1756102d3835e92/tab-digit-1.0.2/AndroidManifest.xml:2:1-17:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:2:1-11:12
 MERGED from [com.squareup:android-times-square:1.6.5] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c71b4e204686b01fbaa41e44614109ef/jetified-android-times-square-1.6.5/AndroidManifest.xml:2:1-9:12
@@ -72,6 +73,8 @@ MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/tra
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.xenione.libs:tab-digit:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c2264b8970ea843cd1756102d3835e92/tab-digit-1.0.2/AndroidManifest.xml:11:5-15:19
+MERGED from [com.xenione.libs:tab-digit:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c2264b8970ea843cd1756102d3835e92/tab-digit-1.0.2/AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:9:5-20
@@ -178,6 +181,8 @@ MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/tra
 MERGED from [com.android.support:design:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/fe097be07f34b2c5095b69710fb5fa60/design-26.1.0/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/bc1de84a979a0510ac61fbcafd7bfd4a/mediarouter-v7-26.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.xenione.libs:tab-digit:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c2264b8970ea843cd1756102d3835e92/tab-digit-1.0.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xenione.libs:tab-digit:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/c2264b8970ea843cd1756102d3835e92/tab-digit-1.0.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/65648d1f2c95227ab193b3dd913500f8/appcompat-v7-26.1.0/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/aoyama/.gradle/caches/transforms-2/files-2.1/6b866ccf05a0e885840ca703dc092d51/constraint-layout-1.0.2/AndroidManifest.xml:5:5-7:41

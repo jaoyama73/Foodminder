@@ -6,13 +6,14 @@
     android:background="@color/colorPrimaryDark"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/bottom_navigation"
         >
-
 
     </FrameLayout>
     <android.support.design.widget.BottomNavigationView
@@ -22,6 +23,7 @@
         android:layout_alignParentBottom="true"
         android:background="?android:attr/windowBackground"
         app:menu="@menu/bottom_navigation"/>
+
 
 
     <android.support.constraint.ConstraintLayout
@@ -46,6 +48,23 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/input_by_scan" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="302dp"
+            android:layout_height="71dp"
+
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal"
+            android:text="FOODMINDER"
+            android:textColor="#8A817C"
+            android:textSize="36sp"
+            app:fontFamily="@font/monoton"
+            app:layout_constraintBottom_toTopOf="@+id/input_camera"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.88" />
 
         <android.support.constraint.Guideline
             android:id="@+id/guideline"
