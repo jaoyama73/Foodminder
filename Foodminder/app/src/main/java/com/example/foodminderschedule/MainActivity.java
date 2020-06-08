@@ -115,15 +115,23 @@ public class MainActivity extends AppCompatActivity {
         integrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
         integrator.setPrompt("Scanning Code");
         integrator.initiateScan();
+
     }
+
+    public static String prodName = "";
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode,resultCode,data);
-        if(result != null){
-            if(result.getContents()!=null){
+        fetchData fetchData = new fetchData();
+        String code= result.getContents();
+        String link = "https://api.upcdatabase.org/product/"+code+"?apikey=17FF0064CF458FB08A2CDB89B7D075F6";
+        fetchData.execute(link);
+        if(prodName != null){
+            if(prodName!=""){
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage(result.getContents());
+                builder.setMessage(prodName);
+                Log.i("TAG",prodName);
                 builder.setTitle(("Scanning Result"));
                 builder.setPositiveButton("Add Date", new DialogInterface.OnClickListener() {
                             @Override
@@ -141,7 +149,26 @@ public class MainActivity extends AppCompatActivity {
                 dialog.show();
             }
             else{
-                Toast.makeText(this,"No Results, Try Again",Toast.LENGTH_SHORT).show();
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setMessage("No matching item in database");
+                Log.i("TAG",prodName);
+                builder.setTitle(("Scanning Result"));
+                builder.setPositiveButton("Back", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                Intent toMainActivity = new Intent(getApplicationContext(),MainActivity.class);
+                                toMainActivity.putStringArrayListExtra("dataArray",dataArray);
+                                startActivity(toMainActivity);
+                            }
+                        }
+                ).setNegativeButton("Scan Again", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        scanBarcode();
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
             }
         }else{
             super.onActivityResult(requestCode,resultCode,data);
