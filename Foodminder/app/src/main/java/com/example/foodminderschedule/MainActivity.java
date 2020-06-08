@@ -23,6 +23,7 @@ import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 import java.util.ArrayList;
+import java.util.LinkedHashSet;
 
 public class MainActivity extends AppCompatActivity {
     private ArrayList<String>dataArray = new ArrayList<>();
@@ -47,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
             dataSize = 0;
         }
         Log.e("tag","RECEIVED"+dataArray.toString());
+        LinkedHashSet<String> dataArrayNoDuplicate = new LinkedHashSet<>(dataArray);
+        dataArray = new ArrayList<>(dataArrayNoDuplicate);
 
         // NavBar Config
         BottomNavigationView bottomNav = (BottomNavigationView)findViewById(R.id.bottom_navigation);

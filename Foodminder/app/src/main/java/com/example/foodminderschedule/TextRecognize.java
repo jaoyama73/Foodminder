@@ -85,7 +85,7 @@ public class TextRecognize extends AppCompatActivity {
         Log.i("tag",String.valueOf(dataArray));
         Log.i("tag",singleItem);
 
-        Button add = findViewById(R.id.buttoncorrect);
+        final Button add = findViewById(R.id.buttoncorrect);
         Button backtoMain = findViewById(R.id.buttonBack);
 
         add.setOnClickListener(new View.OnClickListener(){
@@ -93,7 +93,7 @@ public class TextRecognize extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(isNumeric(year)&& isNumeric(month) && isNumeric(day)){
+                if(isNumeric(year)&& isNumeric(month) && isNumeric(day) && Integer.valueOf(day.replaceAll(" ",""))>0 && Integer.valueOf(day.replaceAll(" ",""))<32 && Integer.valueOf(month.replaceAll(" ",""))>0 &&Integer.valueOf(month.replaceAll(" ",""))<13 && Integer.valueOf(year.replaceAll(" ",""))>=2020){
                     Toast.makeText(getApplicationContext(),"Successfully added",Toast.LENGTH_SHORT).show();
                     String combined = singleItem+"-"+year.replaceAll("[^0-9]","")+"/"+month.replaceAll("[^0-9]","")+"/"+day.replaceAll("[^0-9]","");
 
@@ -107,10 +107,7 @@ public class TextRecognize extends AppCompatActivity {
                         editor.putString("data_" + Integer.toString(i), dataArray.get(i - 1));
                     }
                     editor.apply();
-                    /*
-                    Intent toMainActivity = new Intent(getApplicationContext(), Calendar.class);
-                    toMainActivity.putStringArrayListExtra("dataArray",dataArray);
-                    startActivity(toMainActivity);*/
+                    add.setVisibility(View.GONE);
                 }
                 else{
                     Toast.makeText(getApplicationContext(),"Invalid date format, try again",Toast.LENGTH_SHORT).show();
