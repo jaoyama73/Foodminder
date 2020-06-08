@@ -19,9 +19,13 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 public class DateList extends AppCompatActivity {
     private SharedPreferences sharedPreferences;
@@ -62,8 +66,6 @@ public class DateList extends AppCompatActivity {
         adapter.notifyDataSetChanged();
 
 
-
-
         // NavBar config
         BottomNavigationView bottomNav = (BottomNavigationView)findViewById(R.id.bottom_navigation);
         Menu menu = bottomNav.getMenu();
@@ -90,10 +92,8 @@ public class DateList extends AppCompatActivity {
                 return false;
             }
         });
-
-
-
     }
+
 
 
 
@@ -108,8 +108,26 @@ public class DateList extends AppCompatActivity {
         super.onResume();
 
         // Sort the array (2)
-        Collections.sort(dataArray);
-
+        if(dataArray!=null) {
+            Log.e("TAG","BEFORE SORT: "+dataArray.toString());
+            Collections.sort(dataArray, new Comparator<String>() {
+                @Override
+                public int compare(String o1, String o2) {
+                    String date1 = o1.toString().split("-")[1];
+                    String date2 = o2.toString().split("-")[1];
+                    int year1 = Integer.parseInt(date1.split("/")[0]);
+                    int month1 = Integer.parseInt(date1.split("/")[1]);
+                    int day1 = Integer.parseInt(date1.split("/")[2]);
+                    int year2 = Integer.parseInt(date2.split("/")[0]);
+                    int month2 = Integer.parseInt(date2.split("/")[1]);
+                    int day2 = Integer.parseInt(date2.split("/")[2]);
+                    Date d1 = new GregorianCalendar(year1, month1 - 1, day1).getTime();
+                    Date d2 = new GregorianCalendar(year2, month2 - 1, day2).getTime();
+                    return d1.compareTo(d2);
+                }
+            });
+            Log.e("TAG","AFTER SORT: "+dataArray.toString());
+        }
 
 
 
