@@ -48,6 +48,10 @@
         "source": "/Users/aoyama/Foodminder/Foodminder/app/build/generated/res/pngs/debug/drawable-xxhdpi/ic_home_black_24dp.png"
     },
     {
+        "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/layout_text_recognize.xml.flat",
+        "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/layout/text_recognize.xml"
+    },
+    {
         "merged": "/Users/aoyama/Foodminder/Foodminder/app/build/intermediates/res/merged/debug/layout_input_activity.xml.flat",
         "source": "/Users/aoyama/Foodminder/Foodminder/app/src/main/res/layout/input_activity.xml"
     },

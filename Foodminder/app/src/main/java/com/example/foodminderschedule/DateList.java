@@ -47,6 +47,10 @@ public class DateList extends AppCompatActivity {
             dataArray.add(eachData);
         }
 
+
+
+        Log.e("tag","RECEIVED"+dataArray.toString());
+
         // Sort the date
         Collections.sort(dataArray);
 

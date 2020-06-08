@@ -99,6 +99,7 @@ public class CalendarForm extends AppCompatActivity {
 
             // Split date information into Year, Month, Date
             String[] YMD = dateReceived.split("/");
+            Log.e("TAG",dateReceived);
             String year = YMD[0];
             String month = YMD[1];
             String date = YMD[2];

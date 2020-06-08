@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4eee1"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context="com.example.foodminderschedule.TextRecognize">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="4" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#663504"
+
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="MM/DD/YYYY" />
+
+    <Button
+        android:id="@+id/buttoncorrect"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:text="ADD THIS DATE"
+
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="40dp"
+        android:text="Back to Main" />
+
+</LinearLayout>

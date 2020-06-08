@@ -59,7 +59,7 @@ public class InputActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Pass data as String array to Calendar
                 // Format: item '-' date
-                Log.i("TAG",""+Calendar.getInstance().get(Calendar.YEAR)+" "+Calendar.getInstance().get(Calendar.MONTH)+1+" "+Calendar.getInstance().get(Calendar.DATE));
+                Log.i("TAG",Calendar.getInstance().get(Calendar.YEAR)+" "+(Integer.valueOf(Calendar.getInstance().get(Calendar.MONTH))+1)+" "+Calendar.getInstance().get(Calendar.DATE));
 
                 if(date.getText().toString().matches("")){
                     Toast.makeText(getApplicationContext(),"Please enter the expiration date as YYYY/MM/DD",Toast.LENGTH_SHORT).show();
@@ -71,14 +71,18 @@ public class InputActivity extends AppCompatActivity {
                     }
                     finally{
                         String[]YMD = String.valueOf(date.getText()).split("/");
+                        int Month = Calendar.getInstance().get(Calendar.MONTH)+1;
+
+
                         if (Integer.valueOf(YMD[0]) < Calendar.getInstance().get(Calendar.YEAR)
-                                || Integer.valueOf(YMD[1]) < Calendar.getInstance().get(Calendar.MONTH) + 1
-                                || Integer.valueOf(YMD[2]) < Calendar.getInstance().get(Calendar.DATE)) {
+                                || Integer.valueOf(YMD[1]) < Month) {
                             if(YMD.length<3){
                                 Toast.makeText(getApplicationContext(), "Please enter the expiration date as YYYY/MM/DD", Toast.LENGTH_SHORT).show();}
 
                             else {
-                            Toast.makeText(getApplicationContext(), "Please enter a date in the future", Toast.LENGTH_SHORT).show();}
+                            Toast.makeText(getApplicationContext(), "Please enter a date in the future", Toast.LENGTH_SHORT).show();
+                            Log.i("TAG",YMD[0]+YMD[1]+YMD[2]);
+                            }
 
                         }else {
                             Intent toCalendarActivity = new Intent(getApplicationContext(), CalendarForm.class);
@@ -95,12 +99,10 @@ public class InputActivity extends AppCompatActivity {
                             }
                             editor.apply();
                             //
-
                         }
                     }
 
                 }
-
             }
         });
 

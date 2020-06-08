@@ -143,16 +143,14 @@
     <color name="colorAccent">#999999</color>
     <color name="colorPrimary">#CA9B80</color>
     <color name="colorPrimaryDark">#E9CCB1</color>
-    <color name="common_action_bar_splitter">#d2d2d2</color>
-    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
-    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
-    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
-    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
-    <color name="common_signin_btn_default_background">#FFDD4B39</color>
-    <color name="common_signin_btn_light_text_default">#FF737373</color>
-    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
-    <color name="common_signin_btn_light_text_focused">#FF737373</color>
-    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -206,19 +204,6 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
-    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
-    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
-    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
-    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
-    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
-    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
-    <color name="wallet_dim_foreground_inverse_holo_dark">#323232</color>
-    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
-    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
-    <color name="wallet_hint_foreground_holo_dark">#808080</color>
-    <color name="wallet_hint_foreground_holo_light">#808080</color>
-    <color name="wallet_holo_blue_light">#ff33b5e5</color>
-    <color name="wallet_link_text_light">#0000ee</color>
     <color name="zxing_custom_possible_result_points">#903A89CF</color>
     <color name="zxing_custom_result_view">#b0000000</color>
     <color name="zxing_custom_viewfinder_laser">#1976D2</color>
@@ -401,7 +386,6 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
-    <item name="cast_notification_id" type="id"/>
     <item name="day_view_adapter_class" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="home" type="id"/>
@@ -442,7 +426,7 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
-    <integer name="google_play_services_version">7895000</integer>
+    <integer name="google_play_services_version">11020000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="mr_controller_volume_group_list_animation_duration_ms">400</integer>
     <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
@@ -480,52 +464,28 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="accept">Accept</string>
     <string name="app_name">Foodminder</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
-    <string name="auth_google_play_services_client_google_display_name">Google</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
-    <string name="cast_notification_connected_message">Connected to <ns1:g id="name">%1$s</ns1:g></string>
-    <string name="cast_notification_connecting_message">Connecting to <ns1:g id="name">%1$s</ns1:g></string>
-    <string name="cast_notification_disconnect">Disconnect</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
-    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
-    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
-    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
-    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
-    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
-    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
     <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
-    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
-    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
-    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
-    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
-    <string name="common_google_play_services_network_error_title">Network Error</string>
-    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
     <string name="common_google_play_services_notification_ticker">Google Play services error</string>
-    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
-    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
-    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
-    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
-    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
     <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
     <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
     <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
-    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
-    <string name="create_calendar_title">Create calendar event</string>
     <string name="day_name_format">EEE</string>
-    <string name="decline">Decline</string>
     <string name="enter_password">Enter password</string>
     <string name="enter_user_name">Enter user name</string>
     <string name="go_back_to_login_page">Go Back To Login Page</string>
@@ -562,11 +522,8 @@
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
-    <string name="store_picture_title">Save image</string>
     <string name="textview">TextView</string>
     <string name="user_name">User Name</string>
-    <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <string name="welcome_to_user_page">Welcome to User Page</string>
     <string name="zxing_app_name">Barcode Scanner</string>
     <string name="zxing_button_ok">OK</string>
@@ -1979,14 +1936,6 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-    <style name="Theme.IAPTheme" parent="android:Theme">
-    <item name="android:windowIsTranslucent">true</item>
-    <item name="android:windowBackground">@android:color/transparent</item>
-    <item name="android:windowContentOverlay">@null</item>
-    <item name="android:windowNoTitle">true</item>
-    <item name="android:windowIsFloating">true</item>
-    <item name="android:backgroundDimEnabled">false</item>
-  </style>
     <style name="Theme.MediaRouter" parent="ThemeOverlay.AppCompat.Dark">
         <item name="windowNoTitle">true</item>
         <item name="mediaRouteButtonStyle">@style/Widget.MediaRouter.MediaRouteButton</item>
@@ -2044,38 +1993,6 @@
         <item name="mediaRoutePauseDrawable">@drawable/mr_media_pause_light</item>
         <item name="mediaRouteStopDrawable">@drawable/mr_media_stop_light</item>
         <item name="mediaRouteAudioTrackDrawable">@drawable/mr_vol_type_audiotrack_light</item>
-    </style>
-    <style name="WalletFragmentDefaultButtonTextAppearance">
-        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
-        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
-        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
-        <item name="android:textColorLink">@color/wallet_link_text_light</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textStyle">normal</item>
-    </style>
-    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
-        <item name="android:textStyle">bold</item>
-    </style>
-    <style name="WalletFragmentDefaultDetailsTextAppearance">
-        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
-        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
-        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
-        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
-        <item name="android:textSize">14sp</item>
-        <item name="android:textStyle">normal</item>
-    </style>
-    <style name="WalletFragmentDefaultStyle">
-        <item name="buyButtonHeight">48dp</item>
-        <item name="buyButtonWidth">match_parent</item>
-        <item name="buyButtonText">buy_with</item>
-        <item name="buyButtonAppearance">google_wallet_classic</item>
-        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
-        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
-        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
-        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
-        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
-        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
-        <item name="maskedWalletDetailsLogoImageType">google_wallet_classic</item>
     </style>
     <style name="Widget.AppCompat.ActionBar" parent="Base.Widget.AppCompat.ActionBar">
     </style>
@@ -2262,24 +2179,6 @@
     <declare-styleable name="ActionMenuView"/>
     <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/><attr format="reference" name="closeItemLayout"/></declare-styleable>
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
-    <declare-styleable name="AdsAttrs">
-    <!--
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-    -->
-    <attr format="string" name="adSize"/>
-
-    <!--
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-    -->
-    <attr format="string" name="adSizes"/>
-
-    <!-- The ad unit ID. -->
-    <attr format="string" name="adUnitId"/>
-  </declare-styleable>
     <declare-styleable name="AlertDialog"><attr name="android:layout"/><attr format="reference" name="buttonPanelSideLayout"/><attr format="reference" name="listLayout"/><attr format="reference" name="multiChoiceItemLayout"/><attr format="reference" name="singleChoiceItemLayout"/><attr format="reference" name="listItemLayout"/><attr format="boolean" name="showTitle"/></declare-styleable>
     <declare-styleable name="AppBarLayout"><attr name="elevation"/><attr name="android:background"/><attr format="boolean" name="expanded"/><attr name="android:keyboardNavigationCluster"/><attr name="android:touchscreenBlocksFocus"/></declare-styleable>
     <declare-styleable name="AppBarLayoutStates"><attr format="boolean" name="state_collapsed"/><attr format="boolean" name="state_collapsible"/></declare-styleable>
@@ -2471,13 +2370,6 @@
             
             <flag name="all" value="0x77"/>
         </attr></declare-styleable>
-    <declare-styleable name="CustomWalletTheme">
-        <!-- Defines the set of transition to be used between activities -->
-        <attr format="enum" name="windowTransitionStyle">
-            <enum name="slide" value="1"/>
-            <enum name="none" value="2"/>
-        </attr>
-    </declare-styleable>
     <declare-styleable name="DesignTheme"><attr format="reference" name="bottomSheetDialogTheme"/><attr format="reference" name="bottomSheetStyle"/><attr format="reference|color" name="textColorError"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="arrowHeadLength"/><attr format="dimension" name="arrowShaftLength"/><attr format="dimension" name="barLength"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="FloatingActionButton"><attr name="backgroundTint"/><attr name="backgroundTintMode"/><attr format="color" name="rippleColor"/><attr name="fabSize">
@@ -2512,59 +2404,19 @@
         </attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
-    <declare-styleable name="LoadingImageView">
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
 
-        <!--
-        What kind of aspect ratio adjustment to do.  It must be one of "none", "adjust_width",
-        or "adjust_height".
-        -->
-        <attr format="enum" name="imageAspectRatioAdjust">
-            <enum name="none" value="0"/>
-            <enum name="adjust_width" value="1"/>
-            <enum name="adjust_height" value="2"/>
-        </attr>
+<enum name="adjust_width" value="1"/>
 
-        <!--
-        The fixed aspect ratio to use in aspect ratio adjustments.
-        -->
-        <attr format="float" name="imageAspectRatio"/>
+<enum name="adjust_height" value="2"/>
 
-        <!--
-        Whether or not this view should have a circular clip applied
-        -->
-        <attr format="boolean" name="circleCrop"/>
+</attr>
 
-    </declare-styleable>
-    <declare-styleable name="MapAttrs">
-    <attr format="enum" name="mapType">
-      <enum name="none" value="0"/>
-      <enum name="normal" value="1"/>
-      <enum name="satellite" value="2"/>
-      <enum name="terrain" value="3"/>
-      <enum name="hybrid" value="4"/>
+<attr format="float" name="imageAspectRatio"/>
 
-
-
-    </attr>
-    <attr format="float" name="cameraBearing"/>
-    <attr format="float" name="cameraTargetLat"/>
-    <attr format="float" name="cameraTargetLng"/>
-    <attr format="float" name="cameraTilt"/>
-    <attr format="float" name="cameraZoom"/>
-    <attr format="boolean" name="liteMode"/>
-
-
-
-    <attr format="boolean" name="uiCompass"/>
-    <attr format="boolean" name="uiRotateGestures"/>
-    <attr format="boolean" name="uiScrollGestures"/>
-    <attr format="boolean" name="uiTiltGestures"/>
-    <attr format="boolean" name="uiZoomControls"/>
-    <attr format="boolean" name="uiZoomGestures"/>
-    <attr format="boolean" name="useViewLifecycle"/>
-    <attr format="boolean" name="zOrderOnTop"/>
-    <attr format="boolean" name="uiMapToolbar"/>
-  </declare-styleable>
+<attr format="boolean" name="circleCrop"/>
+</declare-styleable>
     <declare-styleable name="MediaRouteButton"><attr format="reference" name="externalRouteEnabledDrawable"/><attr format="color" name="mediaRouteButtonTint"/><attr name="android:minWidth"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="alphabeticModifiers">
@@ -2615,6 +2467,25 @@
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Layout"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr>
+<attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr>
+
+<attr format="reference|string" name="scopeUris"/>
+</declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
@@ -2685,90 +2556,6 @@
             <enum name="screen" value="15"/>
         </attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <declare-styleable name="WalletFragmentOptions">
-        <!-- Theme to be used for the Wallet selector -->
-        <attr format="enum" name="appTheme">
-            <enum name="holo_dark" value="0"/>
-            <enum name="holo_light" value="1"/>
-        </attr>
-        <!-- Google Wallet environment to use -->
-        <attr format="enum" name="environment">
-            <enum name="production" value="1"/>
-            <enum name="test" value="3"/>
-            <enum name="sandbox" value="0"/>
-            <enum name="strict_sandbox" value="2"/>
-        </attr>
-        <!-- A style resource specifing attributes to customize the look and feel of WalletFragment -->
-        <attr format="reference" name="fragmentStyle"/>
-        <!-- Fragment mode -->
-        <attr format="enum" name="fragmentMode">
-            <enum name="buyButton" value="1"/>
-            <enum name="selectionDetails" value="2"/>
-        </attr>
-    </declare-styleable>
-    <declare-styleable name="WalletFragmentStyle">
-        <!-- Height of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific height, e.g.
-             "48dp", or special values "match_parent" and "wrap_content". -->
-        <attr format="dimension" name="buyButtonHeight">
-            <enum name="match_parent" value="-1"/>
-            <enum name="wrap_content" value="-2"/>
-        </attr>
-        <!-- Width of the buy button. This includes an 8dp padding (4dp on each side) used for
-             pressed and focused states of the button. The value can be a specific width, e.g.
-             "300dp", or special values "match_parent" and "wrap_content". -->
-        <attr format="dimension" name="buyButtonWidth">
-            <enum name="match_parent" value="-1"/>
-            <enum name="wrap_content" value="-2"/>
-        </attr>
-        <!-- The text on the buy button -->
-        <attr format="enum" name="buyButtonText">
-            <enum name="buy_with" value="5"/>
-            <enum name="logo_only" value="6"/>
-            <enum name="donate_with" value="7"/>
-            <!-- Deprecated values -->
-            <enum name="buy_with_google" value="1"/>
-            <enum name="buy_now" value="2"/>
-            <enum name="book_now" value="3"/>
-            <enum name="donate_with_google" value="4"/>
-        </attr>
-        <!-- The appearance of the buy button -->
-        <attr format="enum" name="buyButtonAppearance">
-            <enum name="google_wallet_classic" value="1"/>
-            <enum name="google_wallet_grayscale" value="2"/>
-            <enum name="google_wallet_monochrome" value="3"/>
-            <!-- TODO(waltercacau): Uncomment when Android Pay is launched to all developers:
-                <enum name="android_pay_dark" value="4"/>
-                <enum name="android_pay_light" value="5"/>
-                <enum name="android_pay_light_with_border" value="6"/> -->
-            <!-- Deprecated values -->
-            <enum name="classic" value="1"/>
-            <enum name="grayscale" value="2"/>
-            <enum name="monochrome" value="3"/>
-        </attr>
-        <!-- TextAppearance for masked wallet details -->
-        <attr format="reference" name="maskedWalletDetailsTextAppearance"/>
-        <!-- TextAppearance for headers describing masked wallet details -->
-        <attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/>
-        <!-- Masked wallet details background -->
-        <attr format="reference|color" name="maskedWalletDetailsBackground"/>
-        <!-- TextAppearance for the "Change" button in masked wallet details view -->
-        <attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/>
-        <!-- "Change" button background in masked wallet details view -->
-        <attr format="reference|color" name="maskedWalletDetailsButtonBackground"/>
-        <!-- Color of the Google Wallet logo text in masked wallet details view -->
-        <attr format="color" name="maskedWalletDetailsLogoTextColor"/>
-        <!-- Type of the wallet logo image in masked wallet details view -->
-        <attr format="enum" name="maskedWalletDetailsLogoImageType">
-            <enum name="google_wallet_classic" value="1"/>
-            <enum name="google_wallet_monochrome" value="2"/>
-            <!-- TODO(waltercacau): Uncomment when Android Pay is launched to all developers:
-                <enum name="android_pay" value="3"/> -->
-            <!-- Deprecated values -->
-            <enum name="classic" value="1"/>
-            <enum name="monochrome" value="2"/>
-        </attr>
-    </declare-styleable>
     <declare-styleable name="calendar_cell"><attr format="boolean" name="tsquare_state_selectable"/><attr format="boolean" name="tsquare_state_current_month"/><attr format="boolean" name="tsquare_state_today"/><attr format="boolean" name="tsquare_state_range_first"/><attr format="boolean" name="tsquare_state_range_middle"/><attr format="boolean" name="tsquare_state_range_last"/><attr format="boolean" name="tsquare_state_highlighted"/></declare-styleable>
     <declare-styleable name="zxing_camera_preview"><attr format="dimension" name="zxing_framing_rect_width"/><attr format="dimension" name="zxing_framing_rect_height"/><attr format="boolean" name="zxing_use_texture_view"/><attr format="enum" name="zxing_preview_scaling_strategy"><enum name="centerCrop" value="1"/><enum name="fitCenter" value="2"/><enum name="fitXY" value="3"/></attr></declare-styleable>
     <declare-styleable name="zxing_finder"><attr format="color" name="zxing_possible_result_points"/><attr format="color" name="zxing_result_view"/><attr format="color" name="zxing_viewfinder_laser"/><attr format="color" name="zxing_viewfinder_mask"/></declare-styleable>

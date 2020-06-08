@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             dataArray = new ArrayList<>();
             dataSize = 0;
         }
-        Log.i("tag",String.valueOf(dataArray));
+        Log.e("tag","RECEIVED"+dataArray.toString());
 
         // NavBar Config
         BottomNavigationView bottomNav = (BottomNavigationView)findViewById(R.id.bottom_navigation);
@@ -111,6 +111,7 @@ public class MainActivity extends AppCompatActivity {
     private void scanBarcode(){
         IntentIntegrator integrator = new IntentIntegrator(this);
         integrator.setCaptureActivity(BarcodeActivity.class);
+
         integrator.setOrientationLocked(false);
         integrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
         integrator.setPrompt("Scanning Code");
@@ -136,13 +137,24 @@ public class MainActivity extends AppCompatActivity {
                 builder.setPositiveButton("Add Date", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                finish();
+                                Intent toTextActivity = new Intent(getApplicationContext(),TextRecognize.class);
+                                toTextActivity.putStringArrayListExtra("dataArray",dataArray);
+                                toTextActivity.putExtra("singleItem",prodName);
+                                startActivity(toTextActivity);
+
                             }
                         }
                 ).setNegativeButton("Scan Again", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         scanBarcode();
+                    }
+                }).setNeutralButton("Back", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent toMainActivity = new Intent(getApplicationContext(),MainActivity.class);
+                        toMainActivity.putStringArrayListExtra("dataArray",dataArray);
+                        startActivity(toMainActivity);
                     }
                 });
                 AlertDialog dialog = builder.create();
