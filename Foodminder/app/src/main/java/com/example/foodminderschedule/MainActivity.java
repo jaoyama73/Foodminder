@@ -129,7 +129,8 @@ public class MainActivity extends AppCompatActivity {
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode,resultCode,data);
         fetchData fetchData = new fetchData();
         String code= result.getContents();
-        String link = "https://api.upcdatabase.org/product/"+code+"?apikey=17FF0064CF458FB08A2CDB89B7D075F6";
+        //String link = "https://api.upcdatabase.org/product/"+code+"?apikey=17FF0064CF458FB08A2CDB89B7D075F6";
+        String link = "https://api.barcodelookup.com/v2/products?barcode="+code+"&formatted=y&key=5ndaezbe954tr1rlc9e6mgukxitp1s";
         fetchData.execute(link);
         if(prodName != null){
             if(prodName!=""){

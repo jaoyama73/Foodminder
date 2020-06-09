@@ -43,8 +43,9 @@ public class fetchData extends AsyncTask<String, Void, String> {
             }
 
             JSONObject JO = new JSONObject(data);
-
-            name = JO.get("title")+"";
+            JSONArray prod = JO.getJSONArray("products");
+            //name = JO.get("title")+"";
+            name = prod.getJSONObject(0).getString("product_name");
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
