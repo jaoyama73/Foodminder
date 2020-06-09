@@ -216,6 +216,7 @@ public class TextRecognize extends AppCompatActivity {
                                 dectedstring.append("\n");
                             }
                             String s=dectedstring.toString();
+
                             if (s.contains("2020")|s.contains("2021"))
                             {
                                 try{
@@ -256,6 +257,14 @@ public class TextRecognize extends AppCompatActivity {
                                         {day=s.substring(s.indexOf("2020")-7,s.indexOf("2020")-5);
 
                                         }
+                                        else if(space.equals("/")){
+                                            month = s.substring(s.indexOf("2020")-6, s.indexOf("2020")-4);
+                                            day = s.substring(s.indexOf("2020")-3, s.indexOf("2020")-1);
+                                        }
+                                        else if(space.equals(".")){
+                                            month = s.substring(s.indexOf("2020")-6, s.indexOf("2020")-4);
+                                            day = s.substring(s.indexOf("2020")-3, s.indexOf("2020")-1);
+                                        }
                                         else
                                         { day=s.substring(s.indexOf("2020")-5,s.indexOf("2020")-3);
 
@@ -265,6 +274,14 @@ public class TextRecognize extends AppCompatActivity {
                                     {    space = s.substring(s.indexOf("2021")-1, s.indexOf("2021"));
                                         if (space.equals(" "))
                                         {day=s.substring(s.indexOf("2021")-7,s.indexOf("2021")-5);}
+                                        else if(space.equals("/")){
+                                            month = s.substring(s.indexOf("2021")-6, s.indexOf("2021")-4);
+                                            day = s.substring(s.indexOf("2021")-3, s.indexOf("2021")-1);
+                                        }
+                                        else if(space.equals(".")){
+                                            month = s.substring(s.indexOf("2021")-6, s.indexOf("2021")-4);
+                                            day = s.substring(s.indexOf("2021")-3, s.indexOf("2021")-1);
+                                        }
                                         else
                                         { day=s.substring(s.indexOf("2021")-5,s.indexOf("2021")-3);}}
                                     TextView.setText(month+"/"+day+"/"+year);
