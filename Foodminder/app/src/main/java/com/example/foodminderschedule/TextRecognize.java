@@ -10,6 +10,8 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.util.SparseArray;
 import android.view.SurfaceHolder;
@@ -87,6 +89,9 @@ public class TextRecognize extends AppCompatActivity {
 
         final Button add = findViewById(R.id.buttoncorrect);
         Button backtoMain = findViewById(R.id.buttonBack);
+
+
+
 
         add.setOnClickListener(new View.OnClickListener(){
 
